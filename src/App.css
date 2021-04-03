@@ -30,3 +30,8 @@
   border-bottom: 1px solid #eee;
 
 }
+@media screen and(max-device-width:600px) {
+  .card{
+    transform: translate((20vh));
+  }
+}

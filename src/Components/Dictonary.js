@@ -25,7 +25,9 @@ function Dictonary(props) {
                         <Card onClick={()=>{
                             handleSelectedword(ele)
                             handleToggle()
-                        }}  style={{width:500,height:50,padding:10,margin:20,border:"ridge",marginLeft:400,color:"WindowText",backgroundColor:"blanchedalmond"}}>
+                        }}  
+                        style={{height:50,padding:10,margin:20,border:"ridge",color:"WindowText",backgroundColor:"blanchedalmond"}}
+                        className="card">
                         <Typography variant="h5" component="h2">{ele}</Typography>
                     </Card>
                     )
